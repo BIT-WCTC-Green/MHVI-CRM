@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="codes.js"></script>
+
+</head>
+<body>
+<header>
+    <img src="logo.png" class="img-fluid" height="230" width="435" alt="MHVI"/>
+    <h2 class = "color-mhvi-primary">Home</h2>
+</header>
+<main id="wrapper">
+    <section>
+        <p>User: <span class="UserName">John Doe</span></p>
+        <input id="reports" type="button" value="Reports">
+    </section>
+    <section>
+        <input id="lastName" type="text" placeholder="Smith">
+        <input id="search" type="button" value="Add/Search">
+    </section>
+    <section>
+        <table>
+            <thead>
+            <tr>
+                <th></th>
+                <th>Clients</th>
+                <th>Visits</th>
+                <th>Services</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Total for <span id="month">Jan</span> </td>
+                <td><span id="clients_month">5</span> </td>
+                <td><span id="visits_month">2</span> </td>
+                <td><span id="services_month">12</span> </td>
+            </tr>
+            <tr>
+                <td>Total for <span id="year">2020</span> </td>
+                <td><span id="clients_year">15</span> </td>
+                <td><span id="visits_year">12</span> </td>
+                <td><span id="services_year">120</span> </td>
+            </tr>
+            <tr>
+                <td>Overall Total</td>
+                <td><span id="clients_overall">25</span> </td>
+                <td><span id="visits_overall">22</span> </td>
+                <td><span id="services_overall">212</span> </td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <table>
+            <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+            </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+
+        </table>
+    </section>
+    <section>
+        <input id="fName" type="text" placeholder="John">
+        <input id="lName" type="text" placeholder="Smith">
+        <input id="add" type="button" value="Add">
+    </section>
+
+</main>
+
+</body>
+</html>
