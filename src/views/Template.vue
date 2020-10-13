@@ -9,6 +9,7 @@
         >
             <v-container class="py-0 fill-height"
 
+
             >
                 <v-card>
                     <v-img alt="logo" src="../assets/logo.png"
@@ -19,6 +20,7 @@
                 </v-card>
 
                     <v-btn
+                            class="ms-5"
                             elevation="2"
                             rounded
                             v-for="link in links"
@@ -29,6 +31,7 @@
                     </v-btn>
 
                 <v-spacer></v-spacer>
+
 <!--                for the user logout-->
                 <v-btn
                         elevation="2"
