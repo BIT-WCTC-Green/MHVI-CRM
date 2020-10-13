@@ -53,7 +53,6 @@
             links: [
                 'Dashboard',
                 'Clients',
-                'Visit',
                 'Reports',
             ],
         }),
