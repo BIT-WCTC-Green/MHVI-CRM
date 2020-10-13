@@ -51,18 +51,9 @@
                                 min-height="70vh"
                                 rounded="lg"
                         >
-                            <v-btn
-                                    elevation="2"
-                                    rounded
-                            >Button 1</v-btn>
-                            <v-btn
-                                    elevation="2"
-                                    rounded
-                            >Button 2</v-btn>
-                            <v-btn
-                                    elevation="2"
-                                    rounded
-                            >Button 3</v-btn>
+                            <router-view>
+
+                            </router-view>
                         </v-sheet>
                     </v-col>
                 </v-row>
