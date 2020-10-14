@@ -21,16 +21,21 @@
             <v-row>
                 <v-col><div>Last Name:</div></v-col>
                 <v-col>
-                    <div>TEXTBOX</div>
+                    <v-text-field clearable></v-text-field>
                 </v-col>
                 <v-col>
-                    <v-btn>Add/Search</v-btn>
+                    <v-col><v-btn>Add/Search</v-btn></v-col>
                 </v-col>
             </v-row>
             <v-row>
-                <v-data-table>
+                <v-col></v-col>
+                <v-col>
+                    <v-data-table>
 
-                </v-data-table>
+                    </v-data-table>
+                </v-col>
+                <v-col></v-col>
+
             </v-row>
             <div>
 
