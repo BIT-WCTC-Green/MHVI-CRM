@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import Header from "../views/Header.vue";
+import PageFrame from "../views/PageFrame.vue";
 
 Vue.use(VueRouter)
 
@@ -20,9 +20,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/Header',
-    name: 'Header',
-    component: Header
+    path: '/PageFrame',
+    name: 'PageFrame',
+    component: PageFrame
   }
 ]
 

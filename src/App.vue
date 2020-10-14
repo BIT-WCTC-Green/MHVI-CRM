@@ -1,14 +1,14 @@
 <template>
   <div id="app">
-    <Header/>
+    <PageFrame/>
   </div>
 </template>
 
 <script>
-  import Header from '@/views/Header.vue'
+  import PageFrame from '@/views/PageFrame.vue'
   export default {
     components: {
-      Header
+      PageFrame
     }
   }
 </script>
