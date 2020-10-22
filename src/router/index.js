@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import PageFrame from "../views/PageFrame.vue";
+import Dashboard from "../views/Dashboard";
 
 Vue.use(VueRouter)
 
@@ -23,6 +24,11 @@ const routes = [
     path: '/PageFrame',
     name: 'PageFrame',
     component: PageFrame
+  },
+  {
+    path: '/Dashboard',
+    name: 'Dashboard',
+    component: Dashboard
   }
 ]
 
